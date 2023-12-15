@@ -1,3 +1,32 @@
-h1 {
-    color: blue;
+h1, h2 {
+    color: #fff; 
 }
+
+body {
+    background-color: black;
+}
+
+h1 {
+    margin: 15px auto;
+}
+
+button {
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 10px auto;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: all 150ms ease-in-out;
+}
+
+button:hover {
+    background: aqua;
+    cursor: pointer;
+}
+
+.welcome-container  {
+    text-align: center;
+    margin-top: 275px;
+}
+
+
