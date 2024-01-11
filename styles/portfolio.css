@@ -43,7 +43,7 @@ button,
 
 .about-container,
 .project-header {
-  margin-top: 150px;
+  margin-top: 115px;
 }
 
 .project-header,
@@ -60,7 +60,7 @@ nav {
 }
 
 p {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 h1 {
@@ -76,7 +76,7 @@ button {
   border-radius: 30px;
   padding: 10px 15px;
   margin: 17px auto;
-  font-size: 17px;
+  font-size: 20px;
   border: 3px solid #6995e7;
 }
 
