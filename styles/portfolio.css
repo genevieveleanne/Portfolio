@@ -25,30 +25,44 @@ p,
 button,
 ul,
 .navbar-link,
-.project-container {
+.project-container,
+.contact-link {
   letter-spacing: 1px;
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
 }
 
 h1,
+footer,
 .logo {
   font-family: var(--header-font);
 }
 
-button,
-.navbar-link {
+ul,
+.custom-navbar {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-link,
+.contact-link {
   transition: all 150ms ease-in-out;
 }
 
 .about-container,
-.project-header {
-  margin-top: 115px;
+.header {
+  margin-top: 100px;
 }
 
-.project-header,
+.header,
 .project-container {
   text-align: center;
+}
+
+.navbar-link:hover,
+.contact-link:hover {
+  color: var(--primary-color);
+  cursor: pointer;
 }
 
 body {
@@ -60,7 +74,7 @@ nav {
 }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1 {
@@ -90,16 +104,19 @@ a {
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  font-size: 17px;
-  display: flex;
-  justify-content: flex-end;
-  margin-top: -31px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 li {
   margin: 5px 5px 0px 5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--primary-color);
 }
 
 .logo {
@@ -107,11 +124,18 @@ li {
   font-size: 22px;
 }
 
-.navbar-link:hover {
-  color: var(--primary-color);
-  cursor: pointer;
+.custom-navbar {
+  font-size: 17px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -31px;
 }
 
 .project-container {
   margin-top: 55px;
+}
+
+.contact-item {
+  margin: 15px;
+  text-align: center;
 }
