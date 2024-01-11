@@ -1,0 +1,23 @@
+:root {
+  --page-color: rgb(238, 229, 137);
+  --primary-color: #6995e7;
+  --secondary-color: #4e524e;
+}
+
+body {
+  background-color: var(--page-color);
+  color: var(--primary-color);
+}
+
+p {
+  color: var(--secondary-color);
+}
+
+h2 {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.about-container {
+  margin-top: 150px;
+}
