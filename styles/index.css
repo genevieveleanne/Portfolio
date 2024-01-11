@@ -1,44 +1,44 @@
-h1, h2 {
-    color: #fff; 
+h1,
+h2 {
+  color: #6995e7;
 }
 
-h2, button {
-    font-family: 'Grandiflora One', cursive;
-    font-weight: bold;
+h2,
+button {
+  font-family: "Grandiflora One", cursive;
+  font-weight: bold;
 }
 
 body {
-    background-color: black;
+  background-color: rgb(238, 229, 137);
 }
 
 h1 {
-    margin: 15px auto;
-    font-family: 'Great Vibes', cursive;
-    font-size: 65px;
+  margin: 15px auto;
+  font-family: "Great Vibes", cursive;
+  font-size: 65px;
 }
 
-
 button {
-    border-radius: 30px;
-    padding: 10px 25px;
-    margin: 10px auto;
-    font-size: 20px;
-    border: 1px solid black;
-    transition: all 150ms ease-in-out;
+  border-radius: 30px;
+  padding: 10px 25px;
+  margin: 10px auto;
+  font-size: 20px;
+  border: 3px solid #6995e7;
+  transition: all 150ms ease-in-out;
 }
 
 button:hover {
-    background: aqua;
-    cursor: pointer;
+  background: white;
+  cursor: pointer;
 }
 
-.welcome-container  {
-    text-align: center;
-    margin-top: 275px;
+a {
+  text-decoration: none;
+  color: #6995e7;
 }
 
-
-/*font-family: 'DM Mono', monospace;
-font-family: 'Grandiflora One', cursive;
-font-family: 'Great Vibes', cursive;
-*/
+.welcome-container {
+  text-align: center;
+  margin-top: 275px;
+}
