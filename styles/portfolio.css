@@ -6,10 +6,6 @@
   --paragraph-font: "Grandiflora One", cursive;
 }
 
-body {
-  background-color: var(--page-color);
-}
-
 h1,
 h3,
 a {
@@ -23,6 +19,20 @@ button,
   letter-spacing: 1px;
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
+}
+
+.about-container,
+.project-header {
+  margin-top: 200px;
+}
+
+.project-header,
+.project-container {
+  text-align: center;
+}
+
+body {
+  background-color: var(--page-color);
 }
 
 p {
@@ -55,16 +65,6 @@ button:hover {
 
 a {
   text-decoration: none;
-}
-
-.about-container,
-.project-header {
-  margin-top: 200px;
-}
-
-.project-header,
-.project-container {
-  text-align: center;
 }
 
 .project-container {
