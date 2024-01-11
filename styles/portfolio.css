@@ -11,12 +11,14 @@ body {
 }
 
 h1,
+h3,
 a {
   color: var(--primary-color);
 }
 
 p,
-button {
+button,
+.project-container {
   font-weight: bold;
   letter-spacing: 1px;
   font-family: var(--paragraph-font);
@@ -30,6 +32,11 @@ p {
 h1 {
   font-family: var(--header-font);
   font-size: 60px;
+}
+
+h3 {
+  font-size: 41px;
+  font-weight: bolder;
 }
 
 button {
@@ -50,6 +57,16 @@ a {
   text-decoration: none;
 }
 
-.about-container {
+.about-container,
+.project-header {
   margin-top: 200px;
+}
+
+.project-header,
+.project-container {
+  text-align: center;
+}
+
+.project-container {
+  margin-top: 55px;
 }
