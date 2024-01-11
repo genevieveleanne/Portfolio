@@ -8,37 +8,48 @@
 
 body {
   background-color: var(--page-color);
+}
+
+h1,
+a {
   color: var(--primary-color);
 }
 
 p,
-button,
-li {
+button {
   font-weight: bold;
   letter-spacing: 1px;
   font-family: var(--paragraph-font);
   color: var(--secondary-color);
 }
 
-h1,
-h2 {
-  font-family: var(--header-font);
-}
-
-h1 {
-  font-size: 60px;
-}
-
 p {
   font-size: 18px;
 }
 
-h2 {
-  margin-top: 60px;
-  text-align: center;
-  font-size: 55px;
+h1 {
+  font-family: var(--header-font);
+  font-size: 60px;
+}
+
+button {
+  border-radius: 30px;
+  padding: 10px 15px;
+  margin: 17px auto;
+  font-size: 17px;
+  border: 3px solid #6995e7;
+  transition: all 150ms ease-in-out;
+}
+
+button:hover {
+  background: white;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
 
 .about-container {
-  margin-top: 150px;
+  margin-top: 200px;
 }
