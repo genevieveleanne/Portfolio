@@ -42,3 +42,21 @@ a {
   text-align: center;
   margin-top: 275px;
 }
+
+@media (max-width: 576px) {
+  .home-container {
+    margin-top: 200px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  button {
+    font-size: 18px;
+  }
+}
