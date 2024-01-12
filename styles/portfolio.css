@@ -139,3 +139,15 @@ footer {
   margin: 15px;
   text-align: center;
 }
+
+.about-footer {
+  margin-top: 45px;
+}
+
+.project-footer {
+  margin-top: 175px;
+}
+
+.contact-footer {
+  margin-top: 295px;
+}
