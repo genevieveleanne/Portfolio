@@ -79,6 +79,7 @@ p {
 
 h1 {
   font-size: 60px;
+  letter-spacing: 3px;
 }
 
 h3 {
@@ -135,6 +136,10 @@ footer {
   margin-top: 55px;
 }
 
+.contact-info-container {
+  margin-top: 85px;
+}
+
 .contact-item {
   margin: 15px;
   text-align: center;
@@ -149,5 +154,5 @@ footer {
 }
 
 .contact-footer {
-  margin-top: 295px;
+  margin-top: 242px;
 }
