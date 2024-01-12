@@ -1,9 +1,19 @@
 :root {
-  --page-color: rgb(238, 229, 137);
   --primary-color: #6995e7;
   --secondary-color: #4e524e;
   --header-font: "Great Vibes", cursive;
   --paragraph-font: "Grandiflora One", cursive;
+}
+
+p,
+button,
+ul,
+.navbar-link,
+.project-container,
+.contact-link {
+  letter-spacing: 1px;
+  font-family: var(--paragraph-font);
+  color: var(--secondary-color);
 }
 
 p,
@@ -21,21 +31,33 @@ a,
   color: var(--primary-color);
 }
 
-p,
-button,
-ul,
-.navbar-link,
+footer,
+.header,
 .project-container,
-.contact-link {
-  letter-spacing: 1px;
-  font-family: var(--paragraph-font);
-  color: var(--secondary-color);
+.contact-item {
+  text-align: center;
 }
 
 h1,
 footer,
 .logo {
   font-family: var(--header-font);
+}
+
+button:hover,
+.navbar-link:hover,
+.contact-link:hover {
+  cursor: pointer;
+}
+
+button,
+ul {
+  font-size: 20px;
+}
+
+p,
+footer {
+  font-size: 18px;
 }
 
 ul,
@@ -54,27 +76,17 @@ ul,
   margin-top: 100px;
 }
 
-.header,
-.project-container {
-  text-align: center;
-}
-
 .navbar-link:hover,
 .contact-link:hover {
   color: var(--primary-color);
-  cursor: pointer;
 }
 
 body {
-  background-color: var(--page-color);
+  background-color: rgb(238, 229, 137);
 }
 
 nav {
   margin-top: 20px;
-}
-
-p {
-  font-size: 18px;
 }
 
 h1 {
@@ -91,13 +103,11 @@ button {
   border-radius: 30px;
   padding: 10px 15px;
   margin: 17px auto;
-  font-size: 20px;
   border: 3px solid #6995e7;
 }
 
 button:hover {
   background: white;
-  cursor: pointer;
 }
 
 a {
@@ -105,7 +115,6 @@ a {
 }
 
 ul {
-  font-size: 20px;
   margin-top: 30px;
 }
 
@@ -114,8 +123,6 @@ li {
 }
 
 footer {
-  text-align: center;
-  font-size: 18px;
   letter-spacing: 2px;
   color: var(--primary-color);
 }
@@ -142,7 +149,6 @@ footer {
 
 .contact-item {
   margin: 15px;
-  text-align: center;
 }
 
 .about-footer {
