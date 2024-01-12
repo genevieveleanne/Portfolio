@@ -152,6 +152,14 @@ footer {
   margin-top: -31px;
 }
 
+.project-description {
+  margin-top: 10px;
+}
+
+.project-button {
+  margin-top: 5px;
+}
+
 .contact-info-container {
   margin-top: 85px;
 }
@@ -165,7 +173,7 @@ footer {
 }
 
 .project-footer {
-  margin-top: 175px;
+  margin-top: 80px;
 }
 
 .books-footer {
