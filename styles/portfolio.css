@@ -199,6 +199,15 @@ footer {
     margin-right: 1px;
   }
 
+  .about-header {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .about-paragraph {
+    text-align: center;
+  }
+
   .contact-info-container {
     margin-top: 55px;
   }
