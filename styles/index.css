@@ -44,10 +44,6 @@ a {
 }
 
 @media (max-width: 576px) {
-  .home-container {
-    margin-top: 200px;
-  }
-
   h1 {
     font-size: 48px;
   }
@@ -58,5 +54,9 @@ a {
 
   button {
     font-size: 18px;
+  }
+
+  .home-container {
+    margin-top: 200px;
   }
 }
