@@ -208,6 +208,10 @@ footer {
     text-align: center;
   }
 
+  .app-header {
+    margin-top: 70px;
+  }
+
   .contact-info-container {
     margin-top: 55px;
   }
