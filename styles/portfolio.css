@@ -152,6 +152,11 @@ footer {
   margin-top: -31px;
 }
 
+.profile-pic {
+  width: 65%;
+  margin-left: 96px;
+}
+
 .project-description {
   margin-top: 10px;
 }
@@ -202,6 +207,10 @@ footer {
   .about-header {
     margin-top: 40px;
     text-align: center;
+  }
+
+  .profile-pic {
+    margin-left: 62px;
   }
 
   .about-paragraph {
