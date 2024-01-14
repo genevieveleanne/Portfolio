@@ -165,6 +165,10 @@ footer {
   margin-top: 5px;
 }
 
+.book-row {
+  margin-top: 44px;
+}
+
 .contact-info-container {
   margin-top: 85px;
 }
@@ -227,6 +231,14 @@ footer {
 
   .book-cover {
     width: 163px;
+  }
+
+  .book-row {
+    margin-top: 18px;
+  }
+
+  .books-footer {
+    margin-top: 82px;
   }
 
   .contact-info-container {
